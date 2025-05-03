@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Vers des Tages</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <h1 id="vers">Lade...</h1>
+
+  <script>
+    const verseList = [
+      "الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+      "إِنَّ مَعَ الْعُسْرِ يُسْرًا",
+      "اللَّهُ نُورُ السَّمَاوَاتِ وَالْأَرْضِ",
+      "وَقُل رَّبِّ زِدْنِي عِلْمًا"
+    ];
+
+    const random = Math.floor(Math.random() * verseList.length);
+    document.getElementById("vers").innerText = verseList[random];
+  </script>
+</body>
+</html>
