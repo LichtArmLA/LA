@@ -1,19 +1,7 @@
 /* Grundstile */
 body {
     font-family: Arial, sans-serif;
+    position: relative;
+    top: 190px;
     text-align: center;
     padding: 50px;
-}
-
-h1 {
-    font-size: 2em; /* Größe des Textes */
-    padding: 10px;
-    line-height: 1.5;
-}
-
-/* Für kleinere Bildschirme anpassen */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 1.5em; /* Kleinere Schrift auf Handys */
-    }
-}
